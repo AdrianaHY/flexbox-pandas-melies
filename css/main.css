@@ -117,7 +117,7 @@ img{
     display:flex;
 }
 
-p{
+.seccionParrafos{
   color:#fff;
   width:80%;
   font-size: 50px;
@@ -126,5 +126,15 @@ p{
 }
 #parrafoUno{
   padding-left: 5%;;
-
+}
+footer{
+  display: flex;
+  background: #8a9597;
+  height: 50px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+#textoFooter{
+  color:#000;
 }
