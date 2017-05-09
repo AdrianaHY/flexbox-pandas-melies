@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <title>Flexbox</title>
     <link rel="stylesheet" href="css/main.css">
-     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
   </head>
   <body>
     <header class="container">
       <section id="seccion-titulos" >
-        <span id="titulo">Georges Méliés</span>
+        <p id="titulo">Georges Méliés</p>
       </section>
       <nav >
-        <a href="#">La magia comienza</a>
-        <a href="#">Von voyage!</a>
-        <a href="#">Una breve historia</a>
-        <a href="#">Películas</a>
+        <a class="botones-nav" href="#">La magia comienza</a>
+        <a class="botones-nav" href="#">Von voyage!</a>
+        <a class="botones-nav" href="#">Una breve historia</a>
+        <a class="botones-nav" href="#">Películas</a>
       </nav>
     </header>
 
@@ -40,9 +41,9 @@
 
     <section  id="contenedor-general-botones"class="container">
 
-        <a class="botones" href="#">Origen</a>
-        <a class="botones" href="#">Filmografía</a>
-        <a class="botones" href="#">Restaurar fotos</a>
+        <a id="botonUno" class="botones" >Origen</a>
+        <a id="botonDos" class="botones" >Filmografía</a>
+        <a id="botonTres" class="botones" >Restaurar fotos</a>
 
     </section>
 
@@ -60,7 +61,7 @@
       </div>
 
       <div class="parrafos">
-        <p class=seccionParrafos>
+        <p class=seccionParrafos id="parrafoDos">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -77,6 +78,8 @@
         ©ChicasDelCoro 2017
       </p>
     </footer>
+
+    <script type="text/javascript" src="js/app.js"></script>
 
   </body>
 </html>
