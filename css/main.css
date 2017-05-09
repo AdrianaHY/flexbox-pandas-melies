@@ -85,6 +85,7 @@ img{
   justify-content: center;
   align-content: space-around;
   height: 60px;
+  border-bottom:2px solid #fff;
 }
 
 .botones{
@@ -100,4 +101,30 @@ img{
 }
 .botones:hover{
     color: #F80A71;
+}
+
+#contenedor-parrafos{
+  background-image: url(../assets/img/fondo-parrafo.jpg);
+  height: 1024px;
+  align-items: center;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+.parrafos{
+    width:40%;
+    align-content: center;
+    align-items: center;
+    display:flex;
+}
+
+p{
+  color:#fff;
+  width:80%;
+  font-size: 50px;
+  font-family: 'Tangerine', cursive;
+
+}
+#parrafoUno{
+  padding-left: 5%;;
+
 }
