@@ -35,7 +35,7 @@ nav{
 
 }
 a{
-  text-decoration: none;
+  text-decoration:none;
   color:#FFF;
   font-size: 20px;
 }
@@ -77,4 +77,27 @@ img{
   position: absolute;
   margin-top:-100px;
   margin-left:120px;
+}
+
+#contenedor-general-botones{
+  background-image: url(../assets/img/carrete.jpg);
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  height: 60px;
+}
+
+.botones{
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 0%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  color:#FFFFFF;
+
+}
+.botones:hover{
+    color: #F80A71;
 }
