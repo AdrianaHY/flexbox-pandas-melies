@@ -4,9 +4,7 @@
 }
 body{
   width:100%;
-
 }
-
 .container{
   display:flex;
   flex-direction: row;
@@ -34,10 +32,13 @@ nav{
   font-family: 'Tangerine', cursive;
 
 }
-a{
+.botones-nav{
   text-decoration:none;
   color:#FFF;
   font-size: 20px;
+}
+.botones-nav:hover{
+  color:#F80A71;
 }
 
 #seccion-fotos{
@@ -89,6 +90,7 @@ img{
 }
 
 .botones{
+  text-decoration: none;
   text-align: center;
   margin-top: 2%;
   margin-right: 10%;
@@ -100,7 +102,7 @@ img{
 
 }
 .botones:hover{
-    color: #F80A71;
+  color: #F80A71;
 }
 
 #contenedor-parrafos{
@@ -111,10 +113,10 @@ img{
   align-content: flex-end;
 }
 .parrafos{
-    width:40%;
-    align-content: center;
-    align-items: center;
-    display:flex;
+  width:40%;
+  align-content: center;
+  align-items: center;
+  display:flex;
 }
 
 .seccionParrafos{
@@ -125,7 +127,11 @@ img{
 
 }
 #parrafoUno{
-  padding-left: 5%;;
+  padding-left: 5%;
+  visibility: visible;
+}
+#parrafoDos{
+  visibility: visible;
 }
 footer{
   display: flex;
