@@ -1,0 +1,13 @@
+header{
+  font-size: 35px;
+}
+
+nav{
+  display:flex;
+  background-color: yellow;
+}
+
+a{
+  text-decoration: none;
+  
+}
