@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  background-repeat: no-repeat;
 }
 body{
   width:100%;
@@ -11,6 +12,7 @@ body{
 }
 header{
   background-image: url(../assets/img/carrete.jpg);
+  background-repeat: repeat;
   justify-content: space-between;
   height: 80px;
 }
@@ -36,6 +38,7 @@ nav{
   text-decoration:none;
   color:#FFF;
   font-size: 20px;
+  cursor:pointer;
 }
 .botones-nav:hover{
   color:#F80A71;
@@ -44,6 +47,7 @@ nav{
 #seccion-fotos{
   width:100%;
   background-image: url(../assets/img/fondo.jpg);
+  background-repeat: repeat;
   justify-content: center;
   height: 550px;
 
@@ -72,16 +76,18 @@ img{
   border-bottom: 3px  solid #efb810;
 }
 .close{
-  padding-right: 40px;
+  padding-right: 5%;;
   color:#F50031;
   font-size: 40px;
   position: absolute;
-  margin-top:-100px;
-  margin-left:120px;
+  margin-top:-7%;
+  margin-left:10%;
+  cursor: pointer;
 }
 
 #contenedor-general-botones{
   background-image: url(../assets/img/carrete.jpg);
+  background-repeat: repeat;
   align-items: center;
   justify-content: center;
   align-content: space-around;
@@ -99,6 +105,7 @@ img{
   padding-bottom: 1%;
   font-size: 20px;
   color:#FFFFFF;
+  cursor: pointer;
 
 }
 .botones:hover{
@@ -106,8 +113,8 @@ img{
 }
 
 #contenedor-parrafos{
-  background-image: url(../assets/img/fondo-parrafo.jpg);
-  height: 1024px;
+  background-image: url(../assets/img/fondo-parrafo2.jpg);
+  background-repeat: repeat-x;
   align-items: center;
   justify-content: space-around;
   align-content: flex-end;
@@ -116,15 +123,22 @@ img{
   width:40%;
   align-content: center;
   align-items: center;
+  justify-content: center;
   display:flex;
 }
 
 .seccionParrafos{
-  color:#fff;
+  color:#000;
   width:80%;
-  font-size: 50px;
+  height:30%;
+  font-size: 30px;
+  align-self: center;
   font-family: 'Tangerine', cursive;
-
+  padding:2%;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin:15%;
+  text-align: center;
 }
 #parrafoUno{
   padding-left: 5%;
