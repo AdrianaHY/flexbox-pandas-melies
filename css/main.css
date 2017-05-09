@@ -1,39 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+}
 body{
   width:100%;
+
 }
 
 .container{
   display:flex;
   flex-direction: row;
-  width: 100%;
+}
+header{
+  background-image: url(../assets/img/carrete.jpg);
+  justify-content: space-between;
+  height: 80px;
 }
 nav{
   display: flex;
   justify-content: space-around;
+  align-items:center;
   width:70%;
 }
-#seccion-titulo{
+#seccion-titulos{
   width:30%;
   display: flex;
   justify-content:center;
+  align-items: center;
+}
+#titulo{
+  color:#FFF;
+  font-size: 50px;
+  font-family: 'Tangerine', cursive;
+
 }
 a{
   text-decoration: none;
+  color:#FFF;
+  font-size: 20px;
 }
 
 #seccion-fotos{
   width:100%;
-  justify-content: space-around;
+  background-image: url(../assets/img/fondo.jpg);
+  justify-content: center;
   height: 550px;
-  align-items: center;
+
 }
 
 .contenedorFoto{
-  width:25%;
-  height: 550px;
+  width:20%;
+  height:500px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:center;
+  align-items: center;
 
 }
 img{
@@ -46,6 +67,14 @@ img{
   padding-left: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
-  /*border-top: 3px  solid #E7286B;
-  border-bottom: 3px  solid #E7286B;*/
+  border-top: 3px  solid #efb810;
+  border-bottom: 3px  solid #efb810;
+}
+.close{
+  padding-right: 40px;
+  color:#F50031;
+  font-size: 40px;
+  position: absolute;
+  margin-top:-100px;
+  margin-left:120px;
 }
